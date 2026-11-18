@@ -1,0 +1,27 @@
+{
+  "name": "orvyn-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "qa:devices": "python qa/devtest.py",
+    "audit": "npm audit --omit=dev"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.13",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
