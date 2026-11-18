@@ -4,6 +4,8 @@ The website for Orvyn Solutions, a small studio that builds websites, live dashb
 
 Live site: https://orvynwebsite.vercel.app
 
+[![Showreel preview](docs/showreel.gif)](https://orvynwebsite.vercel.app)
+
 ## What is on the site
 
 - **Work and case studies** that show real projects first, each told as challenge, approach, what was built and result
@@ -33,7 +35,7 @@ Then open http://localhost:3000. Every value in `.env.example` is optional for l
 
 ## Notes
 
-- Film files are not included in this repository, so the Films section shows empty slots when you run it locally.
+- The studio showreel is included in `public/films`. The client film files are not, so the Films grid shows empty slots when you run it locally.
 - No secrets are stored here. Keys go in `.env.local`, which is ignored by git.
 
 ## Contact
